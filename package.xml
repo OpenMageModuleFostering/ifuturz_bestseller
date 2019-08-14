@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package>
+    <name>Ifuturz_Bestseller</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Showcase your best products to the&#xD;
+customers to enhance your selling and the latest trend in the market.</summary>
+    <description>Showing your best products to the customers can help you enhance your selling and the latest trend in the market. We are launching this extension which will let you display your best selling products in the most easy and effective way on your online store.&#xD;
+&#xD;
+Features:&#xD;
+&#xD;
+1)	Easy to install &#xD;
+2)	Specify the number of items to be shown in a row&#xD;
+3)	Facility to change the header name&#xD;
+4)	Display your best selling products date wise&#xD;
+5)	Option to display your product price in the product listing&#xD;
+6)	Option to show the ratings in the product listing&#xD;
+7)	Option to add to cart button in the product listing&#xD;
+8)	Option to add to wish list link in the product list&#xD;
+9)	Option to add to compare link in the product list&#xD;
+10)	Facility to display your products on any page as well as facility to display the products on right or left sidebar. Kindly paste the following code&#xD;
+{{block type="bestseller/bestseller" template="bestseller/bestsellers.phtml"}}</description>
+    <notes>This is first stable version</notes>
+    <authors><author><name>Iverve</name><user>iverve</user><email>extension.geek@ifuturz.com</email></author></authors>
+    <date>2015-01-28</date>
+    <time>08:55:47</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Ifuturz_Bestseller.xml" hash="09258ec440f5ed1fd1374aa21696b7ea"/></dir></target><target name="magelocal"><dir name="Ifuturz"><dir name="Bestseller"><dir name="Block"><dir name="Adminhtml"><dir name="System"><dir name="Config"><file name="Date.php" hash="9a59bef6002a909867205d0bab97b7f8"/></dir></dir></dir><file name="Bestseller.php" hash="79e2322785b8c174d700d78ee7c0ac54"/></dir><dir name="Helper"><file name="Data.php" hash="30b5b4ce5505b7a232c20ca4d6197440"/></dir><dir name="Model"><file name="Observer.php" hash="74ba70fd14757bbe4857ce811e16f37f"/><dir name="Resource"><dir name="Product"><file name="Collection.php" hash="13a752ed1dfb14d53bd6f3924079ff2a"/></dir></dir></dir><dir name="etc"><file name="config.xml" hash="cad5a04fa4ea4f664caf5b7571f26e27"/><file name="system.xml" hash="c7a4a672f97029582dff059725850849"/></dir><dir name="sql"><dir name="bestseller_setup"><file name="mysql4-install-0.1.0.php" hash="dfdfc2a3947f3ef1a8ffcd7b87ed7984"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="bestseller"><file name="bestsellers.phtml" hash="0b36666e3ea2222b1862bc902ed51afb"/></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="css"><file name="bestseller.css" hash="b109a52f37f4d2c05f64b690479e4a8d"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

@@ -1,0 +1,17 @@
+{
+    "name": "OpenMageModuleFostering/Ifuturz_Bestseller",
+    "type": "magento-module",
+    "license": "OSL-v3.0",
+    "homepage": "",
+    "description": "Showcase your best products to the
+customers to enhance your selling and the latest trend in the market.",
+    "authors": [
+    {
+        "name": "Iverve",
+        "email": "extension.geek@ifuturz.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
